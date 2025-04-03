@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advocacia Excellence | Escritório Jurídico</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Barra de Navegação -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Advocacia Excellence">
+            </a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list" id="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#areas">Áreas</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#" class="btn-consulta">Consulta Online</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Excelência Jurídica com Resultados</h1>
+                <p>Defendendo seus direitos com estratégia e comprometimento</p>
+                <a href="#contato" class="btn btn-primary">Agende uma Consulta</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destaques -->
+    <section class="destaques">
+        <div class="container">
+            <div class="destaque-item">
+                <i class="fas fa-balance-scale"></i>
+                <h3>+15 Anos de Experiência</h3>
+                <p>Tradição e modernidade no atendimento jurídico</p>
+            </div>
+            <div class="destaque-item">
+                <i class="fas fa-trophy"></i>
+                <h3>+500 Casos Resolvidos</h3>
+                <p>Resultados comprovados para nossos clientes</p>
+            </div>
+            <div class="destaque-item">
+                <i class="fas fa-user-tie"></i>
+                <h3>Equipe Especializada</h3>
+                <p>Advogados com expertise em diversas áreas</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="sobre" id="sobre">
+        <div class="container">
+            <div class="sobre-content">
+                <h2 class="section-title">Sobre o Escritório</h2>
+                <p>O escritório Advocacia Excellence se destaca pela excelência na prestação de serviços jurídicos, combinando tradição e inovação para oferecer soluções personalizadas a cada cliente.</p>
+                <p>Nossa missão é garantir que seus direitos sejam protegidos com a máxima eficiência e estratégia jurídica, sempre com transparência e ética profissional.</p>
+                <a href="#contato" class="btn btn-secondary">Conheça Mais</a>
+            </div>
+            <div class="sobre-image">
+                <img src="images/escritorio.jpg" alt="Escritório Advocacia Excellence">
+            </div>
+        </div>
+    </section>
+
+    <!-- Áreas de Atuação -->
+    <section class="areas" id="areas">
+        <div class="container">
+            <h2 class="section-title">Áreas de Atuação</h2>
+            <div class="areas-grid">
+                <div class="area-card">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Direito Empresarial</h3>
+                    <p>Assessoria jurídica completa para sua empresa, desde constituição até contratos complexos.</p>
+                    <a href="#contato" class="saiba-mais">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="area-card">
+                    <i class="fas fa-home"></i>
+                    <h3>Direito Civil</h3>
+                    <p>Atuação em questões contratuais, responsabilidade civil, família e sucessões.</p>
+                    <a href="#contato" class="saiba-mais">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="area-card">
+                    <i class="fas fa-hard-hat"></i>
+                    <h3>Direito Trabalhista</h3>
+                    <p>Defesa dos direitos trabalhistas, tanto para empregadores quanto empregados.</p>
+                    <a href="#contato" class="saiba-mais">Saiba mais <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="contato" id="contato">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <div class="contato-grid">
+                <div class="contato-info">
+                    <h3>Informações de Contato</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Av. Paulista, 1000 - São Paulo/SP</p>
+                    <p><i class="fas fa-phone"></i> (11) 9999-9999</p>
+                    <p><i class="fas fa-envelope"></i> 123@advocaciaexcellence.com.br</p>
+                </div>
+                <form class="contato-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Seu E-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Sua Mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-col">
+                <img src="images/logo.png" alt="Advocacia Excellence" class="footer-logo">
+                <p>Excelência jurídica com resultados concretos para nossos clientes.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#areas">Áreas</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Horário de Atendimento</h3>
+                <p>Segunda a Sexta: 9h às 18h</p>
+                <p>Sábado: 9h às 12h</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2023 Advocacia Excellence. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
